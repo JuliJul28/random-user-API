@@ -18,11 +18,9 @@ pic = response.json()['results'][0]['picture']['large']
 
 nat = response.json()['results'][0]['nat']
 
-time = response.json()['results'][0]['location']['offset']['description']
 print(nat)
 print(f'{title}. {first_name} {last_name}')
 print(f'Photo: {pic}')
 print(f'Phone number: {phoneNum}')
 print(f'Age: {age}')
 print(f'Gender: {gender}')
-print(f'time: {time}')
